@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="aj_hero_Linq">
+  <DataContextMoniker Name="/aj_hero_LinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3bdd7dc7-9c84-4fda-a967-7581d97dce74" absoluteBounds="1.125, 1.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/aj_hero_LinqDataContext/tbl_aj_hero_v1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51bc701d-4e20-447d-86c9-330081df5b19" absoluteBounds="1.1400000000000001, 1.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

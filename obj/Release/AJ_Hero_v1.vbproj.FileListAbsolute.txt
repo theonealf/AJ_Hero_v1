@@ -1,0 +1,12 @@
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\install\AJ_Hero_v1.dll.config
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\install\AJ_Hero_v1.dll
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\install\AJ_Hero_v1.pdb
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\install\AJ_Hero_v1.xml
+I:\wwwroot\dnndev.me\bin\AJ_Hero_v1.dll.config
+I:\wwwroot\dnndev.me\bin\AJ_Hero_v1.dll
+I:\wwwroot\dnndev.me\bin\AJ_Hero_v1.pdb
+I:\wwwroot\dnndev.me\bin\AJ_Hero_v1.xml
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\obj\Release\AJ_Hero_v1.dll
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\obj\Release\AJ_Hero_v1.xml
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\obj\Release\AJ_Hero_v1.pdb
+I:\wwwroot\dnndev.me\DesktopModules\AJ_Hero_v1\obj\Release\AJ_Hero_v1.vbprojAssemblyReference.cache

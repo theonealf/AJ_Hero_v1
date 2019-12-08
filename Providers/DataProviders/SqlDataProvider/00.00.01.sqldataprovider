@@ -1,0 +1,35 @@
+﻿
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID(N'{databaseOwner}[{objectQualifier}tbl_aj_hero_v1]') AND type in (N'U'))
+	DROP TABLE {databaseOwner}[{objectQualifier}tbl_aj_hero_v1]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}tbl_aj_hero_v1(
+	[heroid] [int] IDENTITY(1,1) NOT NULL,
+	[ModuleId] [int] NOT NULL,
+	[Itemblock1] [nvarchar](max) NOT NULL,
+	[Itemblock2] [nvarchar](max) NOT NULL,
+	[CreatedOnDate] [datetime] NOT NULL,
+	[CreatedByUserId] [int] NOT NULL,
+	[LastModifiedOnDate] [datetime] NOT NULL,
+	[LastModifiedByUserId] [int] NOT NULL,
+ CONSTRAINT [PK_{objectQualifier}tbl_aj_herov1] PRIMARY KEY CLUSTERED 
+(
+	[heroid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+
